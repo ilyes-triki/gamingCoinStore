@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #242428;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffdd95;
+  padding: 10px;
+}
+
+.App-main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #ffdd95;
+  padding: 10px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1920px) {
+  .App-header {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .App-main {
+    padding: 10px;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
